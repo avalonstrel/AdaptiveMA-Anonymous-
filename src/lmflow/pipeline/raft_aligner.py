@@ -898,13 +898,6 @@ class RaftAligner(BaseAligner):
         raft_trainer.train(resume_from_checkpoint=False, is_first_time=True)
         mode = aligner_args.mode
 
-        ####
-        #ref_model = AutoModelForCausalLM.from_pretrained("/home/xiongwei/rm_study/LMFlow/output_models/best4/proxy_sft_open_llama_3b_v2_2epoch_helpful_and_harmless")
-
-        #raft_trainer2 = self._initialize_trainer(ref_model, tokenizer, training_args)
-        #raft_trainer2.train(resume_from_checkpoint=False, is_first_time=True)
-        
-
         #####
         if mode == "raft_get_samples":
             shuffled_dataset = dataset.shuffle(seed=self.seed)
