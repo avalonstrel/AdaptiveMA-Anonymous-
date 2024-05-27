@@ -10,7 +10,7 @@ import json
 from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-project_dir="/home/jianmeng/linhangyu/Projects/LLMs/LMFlow_RAFT_Dev"
+project_dir="./"
 parser = argparse.ArgumentParser()
 parser.add_argument("--model_path", type=str, default="zephr-7b-beta")
 parser.add_argument("--eval_data_type", type=str, default="alpaca")

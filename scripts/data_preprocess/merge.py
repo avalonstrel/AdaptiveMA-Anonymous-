@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # coding=utf-8
-# Copyright 2023 Statistics and Machine Learning Research Group at HKUST. All rights reserved.
 """
 Merges an extra dataset into current dataset.
 """

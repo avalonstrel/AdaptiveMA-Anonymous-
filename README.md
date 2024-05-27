@@ -122,7 +122,7 @@ bash scripts/eval_cs_qa/run_evaluation.sh
 ```
 
 #### Drop/Squad/WMT14
-We invoke [opencompass](https://github.com/open-compass/opencompass) and [lmflow_bencmark](https://github.com/shizhediao/forgetting-bench).
+We invoke [opencompass](https://github.com/open-compass/opencompass) and [lmflow_bencmark].
 ```bash
 bash scripts/eval_drop_squad_wmt/run-evaluation-drop.sh
 bash scripts/eval_drop_squad_wmt/run-evaluation-squad.sh

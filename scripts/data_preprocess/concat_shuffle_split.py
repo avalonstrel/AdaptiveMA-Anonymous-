@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # coding=utf-8
-# Copyright 2023 Statistics and Machine Learning Research Group at HKUST. All rights reserved.
 """
 This script is designed for handling large datasets. 
 It merges multiple datasets located in the same directory, shuffles them, and splits them into training, evaluation, and testing sets. 
